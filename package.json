@@ -1,0 +1,17 @@
+{
+  "name": "animations",
+  "version": "1.0.0",
+  "description": "This repository contains all my projects featuring animations or creative elements that I have personally implemented primarily using Vanilla JS or WebGL. Also in case you identify any areas for improvement - such as coding standards, readability, or performance optimizations - I would appreciate your constructive feedback.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "eslint": "^9.31.0",
+    "globals": "^16.3.0"
+  }
+}

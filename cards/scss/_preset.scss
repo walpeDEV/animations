@@ -1,0 +1,55 @@
+:root {
+  --clr-background: #d4d4d4;
+  --clr-surface: #f8fafc;
+  --clr-prime: #1b2431;
+  --clr-secondary: #3b82f6;
+  --clr-text: #1e293b;
+  --clr-text-secondary: #64748b;
+  --clr-border: #e2e8f0;
+
+  @media (prefers-color-scheme: dark) {
+    --clr-background: #1b2431;
+    --clr-surface: #2d3748;
+    --clr-prime: #f8fafc;
+    --clr-secondary: #60a5fa;
+    --clr-text: #f8fafc;
+    --clr-text-secondary: #94a3b8;
+    --clr-border: #374151;
+  }
+}
+
+$clr-background: var(--clr-background);
+$clr-surface: var(--clr-surface);
+$clr-prime: var(--clr-prime);
+$clr-secondary: var(--clr-secondary);
+$clr-text: var(--clr-text);
+$clr-text-secondary: var(--clr-text-secondary);
+$clr-border: var(--clr-border);
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: $clr-background;
+  color: $clr-prime;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+button {
+  background-color: $clr-secondary;
+  padding: 6px;
+  margin: 3px;
+  font-size: 16px;
+  min-width: 100px;
+  width: auto;
+  color: $clr-prime;
+  border: 2px solid $clr-prime;
+  border-radius: 10px;
+}
+
+canvas {
+  position: absolute;
+}
